@@ -1,6 +1,6 @@
 # Screenshot Tray Tool
 
-A basic tool for Linux and Windows to take screenshots that lives in the system tray.
+A basic tool to take screenshots, for Linux and Windows, that lives in the system tray.
 
 ![screenshot](./screenshot.jpg)
 
