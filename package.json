@@ -1,0 +1,33 @@
+{
+  "name": "screenshot-tray-tool",
+  "version": "0.1.0",
+  "description": "A tool to take screenshots that lives in the system tray",
+  "main": "./app/main.js",
+  "author": "Álvaro García (www.binarynonsense.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binarynonsense/screenshot-tray-tool"
+  },
+
+  "build": {
+    "appId": "com.binarynonsense.app.id",
+    "linux": {
+      "category": "Utility"
+    }
+  },
+
+  "scripts": {
+    "start": "electron . --dev",
+    "build:linux": "electron-builder --linux --dir",
+    "dist:linux": "electron-builder --linux",
+    "build:windows": "electron-builder --win --dir",
+    "dist:windows": "electron-builder --win"
+  },
+
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^22.6.1"
+  },
+  "dependencies": {}
+}
