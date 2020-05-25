@@ -14,6 +14,7 @@ The current version saves the screenshots in the user's Desktop folder.
 
 * Custom output folder
 * Custom shortcut
+* Option to start on system startup
 
 ## License
 
