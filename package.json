@@ -4,7 +4,7 @@
   "description": "A tool to take screenshots that lives in the system tray",
   "main": "./app/main.js",
   "author": "Álvaro García (www.binarynonsense.com)",
-  "license": "MIT",
+  "license": "BSD-2-CLAUSE",
   "repository": {
     "type": "git",
     "url": "https://github.com/binarynonsense/screenshot-tray-tool"
