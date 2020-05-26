@@ -8,7 +8,7 @@ class TrayIcon extends Tray {
     constructor(iconPath){
         super(iconPath);
 
-        this.setToolTip('Screenshot Taker');
+        this.setToolTip('Screenshot Tray Tool');
 
         this.on('click', this.onClick.bind(this));
         //this.on('right-click', this.onRightClick.bind(this)); 
